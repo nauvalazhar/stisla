@@ -8,13 +8,26 @@ html, body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
 	background-color: #fff;
 	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
 	background-image: url('../img/spinner.svg');
 	background-size: 100%;
 	width: 80px;
 	height: 80px;
 	box-shadow: 0 0 40px rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0 0 40px rgba(0,0,0,0.05);
+	-moz-box-shadow: 0 0 40px rgba(0,0,0,0.05);
+	-ms-box-shadow: 0 0 40px rgba(0,0,0,0.05);
+	-o-box-shadow: 0 0 40px rgba(0,0,0,0.05);
+	z-index: 999999;
 }
 
 .navbar-toggler {
@@ -64,6 +77,10 @@ html, body {
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, 0);
+	-moz-transform: translate(-50%, 0);
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	-o-transform: translate(-50%, 0);
 	padding: 50px 0 100px 0;
 	width: 70%;
 }
@@ -78,6 +95,10 @@ html, body {
 	text-transform: uppercase;
 	font-weight: 800;
 	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
 	padding: 10px 25px;
 	cursor: pointer;
 	font-size: 14px;
@@ -157,6 +178,7 @@ html, body {
 	transition: all .5s;
 	-webkit-transition: all .5s;
 	-o-transition: all .5s;
+	-ms-transition: all .5s;
 }
 
 .navbar.main-navbar .nav-link:after {
@@ -165,12 +187,17 @@ html, body {
 	bottom: -10px;
 	left: 50%;
 	transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
 	height: 2px;
 	width: 0;
 	background-color: #fff;
 	transition: all .5s;
 	-webkit-transition: all .5s;
 	-o-transition: all .5s;
+	-ms-transition: all .5s;
 }
 
 .navbar.main-navbar .nav-link:hover {
@@ -195,6 +222,10 @@ html, body {
 
 .navbar.main-navbar .form-inline .btn {
 	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
 	border-width: 2px;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -223,6 +254,10 @@ html, body {
 	left: 300px;
 	right: 300px;
 	transform: translateY(-60%);
+	-webkit-transform: translateY(-60%);
+	-moz-transform: translateY(-60%);
+	-o-transform: translateY(-60%);
+	-ms-transform: translateY(-60%);
 	z-index: 1;
 	text-align: center;
 }
@@ -261,6 +296,10 @@ html, body {
 
 .hero .cta .btn.btn-primary {
 	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-o-border-radius: 30px;
+	-ms-border-radius: 30px;
 	padding-left: 30px;
 	padding-right: 30px;
 }
@@ -340,6 +379,10 @@ section.callout .cta .btn {
 	font-weight: 800;
 	letter-spacing: 2px;
 	border-radius: 0;
+	-webkit-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
+	-moz-border-radius: 0;
 	border-width: 2px;
 	border-color: #000;
 	color: #000;
@@ -357,6 +400,7 @@ section.callout h3 {
 /*list*/
 .list-item {
 	display: flex;
+	display: -webkit-flex;
 	width: 100%;
 }
 
@@ -367,10 +411,12 @@ section.callout h3 {
 .list-item .icon,
 .list-item .desc {
 	flex: 1;
+	-webkit-flex: 1;
 }
 
 .list-item .icon {
 	flex: 0 0 65px;
+	-webkit-flex: 0 0 65px;
 	font-size: 45px;
 	line-height: 0;
 	color: #ccc;
@@ -399,7 +445,15 @@ section.callout h3 {
 article.card {
 	border: none;
 	box-shadow: 0 0 40px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 0 40px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 0 40px rgba(0,0,0,.05);
+	-ms-box-shadow: 0 0 40px rgba(0,0,0,.05);
+	-o-box-shadow: 0 0 40px rgba(0,0,0,.05);
 	margin-bottom: 60px;
+}
+
+article.card .card-img-top {
+	height: 100%;
 }
 
 article.card .card-title {
@@ -461,9 +515,16 @@ article.card .card-more i {
 	margin-right: 1px;
 	border-color: transparent;
 	box-shadow: 0 0 40px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0 0 40px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 0 40px rgba(0,0,0,.05);
+	-o-box-shadow: 0 0 40px rgba(0,0,0,.05);
 	padding: 30px 25px;
 	padding-right: 130px;
 	border-radius: 30px !important;
+	-webkit-border-radius: 30px !important;
+	-moz-border-radius: 30px !important;
+	-o-border-radius: 30px !important;
+	-ms-border-radius: 30px !important;
 	display: inline-block;
 	width: 100%;
 }
@@ -483,6 +544,10 @@ article.card .card-more i {
 	right: 10px;
 	top: 10px;
 	border-radius: 30px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
 	font-size: 14px;
 	font-weight: 600;
 	letter-spacing: .5px;
@@ -531,6 +596,10 @@ article.card .card-more i {
 .projects-details .projects-cta .btn-primary {
 	background-color: #fff;
 	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
 	color: #000;
 	border-color: #fff;
 	padding: 13px 20px;
@@ -554,7 +623,15 @@ form.contact .form-control {
 	padding: 15px;
 	border-color: transparent;
 	box-shadow: 0 0 10px rgba(0,0,0,.01);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.01);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,.01);
+	-o-box-shadow: 0 0 10px rgba(0,0,0,.01);
+	-ms-box-shadow: 0 0 10px rgba(0,0,0,.01);
 	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-o-border-radius: 0;
+	-ms-border-radius: 0;
 	border-width: 2px;
 }
 
@@ -572,6 +649,10 @@ form.contact .btn-primary {
 	font-weight: 600;
 	letter-spacing: 2px;
 	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
 	font-size: 14px;
 	cursor: pointer;
 	border-color: #000;

@@ -56,30 +56,29 @@ $(function() {
 			overflow: "hidden"
 		});
 
-		let $element = `<div class="article-read">
-		<div class="article-read-inner">
-			<div class="article-back">
-				<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Back</a>
-			</div>
-			<h1 class="article-title">{title}</h1>
-			<div class="article-metas">
-				<div class="meta">
-					{date}
-				</div>
-				<div class="meta">
-					{category}
-				</div>
-				<div class="meta">
-					{author}
-				</div>
-			</div>
-			<figure class="article-picture"><img src="{picture}"></figure>
-			<div class="article-content">
-			{content}
-			</div>
-		</div>
-		</div>
-		`;
+		let $element = '<div class="article-read">';
+				$element += '<div class="article-read-inner">';
+				$element += '<div class="article-back">';
+				$element += '<a class="btn btn-outline-primary"><i class="ion ion-chevron-left"></i> Back</a>';
+				$element += '</div>';
+				$element += '<h1 class="article-title">{title}</h1>';
+				$element += '<div class="article-metas">';
+				$element += '<div class="meta">';
+				$element += '	{date}';
+				$element += '</div>';
+				$element += '<div class="meta">';
+				$element += '	{category}';
+				$element += '</div>';
+				$element += '<div class="meta">';
+				$element += '	{author}';
+				$element += '</div>';
+				$element += '</div>';
+				$element += '<figure class="article-picture"><img src="{picture}"></figure>';
+				$element += '<div class="article-content">';
+				$element += '{content}';
+				$element += '</div>';
+				$element += '</div>';
+				$element += '</div>';
 
 		$.ajax({
 			url: "mock/article.json",
