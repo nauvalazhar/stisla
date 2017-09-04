@@ -2,6 +2,7 @@
 Stisla is HTML5 and CSS3 Template Based on Bootstrap 4
 
 # Features
+- No errors (W3C Validator)
 - Bootstrap 4
 - HTML5 & CSS3
 - PHPMailer
