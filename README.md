@@ -1,3 +1,5 @@
+![stisla's preview](https://themequarry.com/storage/images/approved/ASFEDAB5_v1.0.0_59ada4646e65d.png "Preview")
+
 # Stisla
 Stisla is HTML5 and CSS3 Template Based on Bootstrap 4
 
