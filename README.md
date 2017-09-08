@@ -32,3 +32,6 @@ Stisla is HTML5 and CSS3 Template Based on Bootstrap 4
 
 # License
 MIT License
+
+# Support
+[Support Us](https://www.patreon.com/itskodinger)
